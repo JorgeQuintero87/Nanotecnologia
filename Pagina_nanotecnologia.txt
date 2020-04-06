@@ -1,0 +1,444 @@
+<!--
+Author: Jorge Luis Quintero López
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>NanoTecnología</title>
+<!-- for-mobile-apps -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Clinical Lab Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="iconos/fonts1.css">
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<script src="js/responsiveslides.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="header_w3l" data-spy="affix">
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			<h1><a  href="index.html">Nano<span>tecnología</span><img class="imagenlogo" src="images/icono7.svg" alt="Solvetic"></a></h1>
+			</div>
+				<!-- top-nav -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" class="active"><span class="iconmenu icon-home"></span> Inicio</a></li>
+					<li><a href="about.html"><span class="iconmenu icon-book"></span> Definición</a></li>
+					<li><a href="treatments.html"><span class="iconmenu icon-lab"></span> Usos</a></li>
+					<li><a href="main_app/resultados.php"><span class="iconmenu icon-download"></span>Notas</a></li>
+					<li><a href="contact.html"><span class="iconmenu icon-location2"></span> Cursos</a></li>
+					<li><a href="loogin.php"><span class="iconmenu icon-user-tie"></span> Usuario</a></li>
+				</ul>	
+				<div class="clearfix"> </div>	
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- header -->
+
+<!-- banner -->
+<div class="banner_w3ls w3layouts container-fluid">
+	<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: true,
+							speed: 200,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+	</script>
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner-info w3">
+						<div class="banner-text w3l">
+							<h3>Diseño y manipulación de cualquier tipo de átomos y moléculas <span></span></h3>
+							<p>Nanotecnología</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info w3ls">
+						<div class="banner-text agileits">
+							<h3>De lo más grande a lo más pequeño<span></span></h3>
+							<p>Nanomateriales</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info agileinfo">
+						<div class="banner-text wthree">
+							<h3>disciplina dedicada al estudio de los fenómenos físicos, químicos y biológicos que ocurren a escala nanométrica<span></span></h3>
+							<p>Nanociencia</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+</div>
+<!-- //banner -->
+
+<!-- banner-bottom 
+<div class="bottom_wthree">
+	<div class="col-md-6 bottom-left w3-agileits">	
+		<figure class="cube-1">
+			<div class="btm-hov">
+				<div class="btm-wid">
+					<div class="thumbs">
+						<span class="rotate">
+							<a href="#"  class="btn"><span class="icon-aid-kit" style=" font-size: 50px;margin-left: 20px;"></span><i class="fa fa-arrow-circle-up"></i></span></a>
+						</span>
+					</div>
+					<div class="fill_fig">
+						<span class="fill"></span>
+						<span class="fill"></span>
+						<span class="fill"></span>
+						<span class="fill"></span>
+					</div>
+				</div>
+			</div>
+		</figure>
+		<div class="clearfix"></div>
+	</div>
+	<div class="col-md-6 bottom-right agileits-w3layouts">
+		<div class="btm-right-grid agile">
+			<h2>Información  </p>
+		</div>	
+	</div>
+	<div class="clearfix"></div>
+</div>-->
+<!-- //banner-bottom -->
+<!-- services -->
+<div class="services_agile">
+	<div class="container">
+		<h3 class="title">DATOS CURIOSOS</h3>
+		<table class="egt">
+  <tr>
+    <td><div class="services_right w3-agile">
+			<div class="col-md-4 list-left text-center wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<span></span>
+				<h4>Historia</h4>
+				<p><iframe width="460" height="350" src="https://www.youtube.com/embed/XaysVKpKQ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+			</div></td>
+    <td>		
+	<div class="col-md-4 list-left text-center wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
+		<span></span>
+				<div>
+<svg width="400" height="400"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var data = [
+{month: "2017", Nanotecnologia: 1976},
+  {month: "2018", Nanotecnologia: 945},
+  {month: "2019", Nanotecnologia: 323}
+];
+
+var series = d3.stack()
+    .keys(["Nanotecnologia"])
+    .offset(d3.stackOffsetDiverging)
+    (data);
+
+var svg = d3.select("svg"),
+    margin = {top: 20, right: 30, bottom: 30, left: 60},
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var x = d3.scaleBand()
+    .domain(data.map(function(d) { return d.month; }))
+    .rangeRound([margin.left, width - margin.right])
+    .padding(0.1);
+
+var y = d3.scaleLinear()
+    .domain([d3.min(series, stackMin), d3.max(series, stackMax)])
+    .rangeRound([height - margin.bottom, margin.top]);
+
+var z = d3.scaleOrdinal(d3.schemeCategory10);
+
+svg.append("g")
+  .selectAll("g")
+  .data(series)
+  .enter().append("g")
+    .attr("fill", function(d) { return z(d.key); })
+  .selectAll("rect")
+  .data(function(d) { return d; })
+  .enter().append("rect")
+    .attr("width", x.bandwidth)
+    .attr("x", function(d) { return x(d.data.month); })
+    .attr("y", function(d) { return y(d[1]); })
+    .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+
+svg.append("g")
+    .attr("transform", "translate(0," + y(0) + ")")
+    .call(d3.axisBottom(x));
+
+svg.append("g")
+    .attr("transform", "translate(" + margin.left + ",40)")
+    .call(d3.axisLeft(y));
+
+function stackMin(serie) {
+  return d3.min(serie, function(d) { return d[0]; });
+}
+
+function stackMax(serie) {
+  return d3.max(serie, function(d) { return d[1]; });
+}
+
+</script>
+			</div><p>No.Publicaciones</p></td>
+    <td><div class="col-md-4 list-left text-center wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+				<span></span>
+				<h4>SVG</h4>
+				<p><svg width="300" height="250">
+  <rect id="rec" x="90" y="70" width="300" height="100" style="fill:lime"> 
+    <animate attributeName="x" attributeType="XML" begin="0s" dur="10s" fill="freeze" from="300" to="0" /> 
+    <animate attributeName="y" attributeType="XML" begin="0s" dur="10s" fill="freeze" from="100" to="0" /> 
+    <animate attributeName="width" attributeType="XML" begin="0s" dur="10s" fill="freeze" from="300" to="800" /> 
+    <animate attributeName="height" attributeType="XML" begin="0s" dur="10s" fill="freeze" from="100" to="300" /> 
+    <animate attributeName="fill" attributeType="CSS" from="lime" to="silver" begin="5s" dur="5s" fill="freeze" />
+  </rect>
+  <g transform="translate(30,50)"> 
+    <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:14; visibility:hidden">Ciencia!
+      <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+      <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+      <animate attributeName="fill" attributeType="CSS" from="red" to="blue" begin="1s" dur="10s" fill="freeze" /> 
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+    </text> 
+  </g>
+  Sorry, your browser does not support inline SVG.
+</svg></p>
+</div></td>
+  </tr>
+</table>
+		
+	
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //services -->
+
+<!-- care 
+<div class="care_agileits">
+	<div class="container">
+		<div class="offer agile">
+			<h3>Offering the full spectrum of new treatments</h3>
+			<h4>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</h4>
+			<ul>
+				<li>
+					<div class="offer-left w3-agile">
+						<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2b">
+							<a href="#" class="hi-icon hi-icon-cog glyphicon glyphicon-education"></a>
+						</div>
+					</div>
+					<div class="offer-right agileits-w3layouts">
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+						aut odit aut fugit, sed quia consequuntur magni dolores eos qui</p>
+					</div>
+					<div class="clearfix"></div>
+				</li>
+				<li>
+					<div class="offer-left w3-agileits">
+						<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2b">
+							<a href="#" class="hi-icon hi-icon-cog glyphicon glyphicon-scissors"></a>
+						</div>
+					</div>
+					<div class="offer-right wthree">
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+						aut odit aut fugit, sed quia consequuntur magni dolores eos qui</p>
+					</div>
+					<div class="clearfix"></div>
+				</li>
+				<li>
+					<div class="offer-left agileinfo">
+						<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2b">
+							<a href="#" class="hi-icon hi-icon-cog glyphicon glyphicon-plus"></a>
+						</div>
+					</div>
+					<div class="offer-right agileits">
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+						aut odit aut fugit, sed quia consequuntur magni dolores eos qui</p>
+					</div>
+					<div class="clearfix"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>-->
+<!-- //care -->
+<div class="features_w3 agileits">
+	<div class="container">
+		<h3 class="title">Investigación actual</h3>
+		<div class="fea_grids w3ls">
+			<div class="col-md-6 fea_grid1">
+				<div class="col-sm-4 fea_left text-center w3ls">
+					<div class="ih-item circle effect1">
+						<a href="#">
+							<div class="spinner"></div>
+							<div class="img"><img src="images/icon1.svg" alt="img"></div>
+								<div class="info">
+								  <div class="info-back">
+									
+								  </div>
+								</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-8 fea_right agileinfo">
+					<h4>La ciencia de Interfaz</h4>
+					<p ALIGN="justify">ha identificado muchos materiales que pueden ser útiles en la nanotecnología, tales como los nanotubos de carbono y otros fullerenos</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 fea_grid2">
+				<div class="col-sm-8 fea_right fea_two w3-agileits">
+					<h4>La nanotecnología de ADN</h4>
+					<p ALIGN="justify">utiliza la especificidad del pareo de base de Watson-Crick para construir estructuras bien definidas a partir del ADN y otros ácidos nucleicos</p>
+				</div>
+				<div class="col-sm-4 fea_left fea_one text-center w3layouts">
+					<div class="ih-item circle effect1">
+						<a href="#">
+							<div class="spinner"></div>
+							<div class="img"><img src="images/icon2.svg" alt="img"></div>
+								<div class="info">
+								  <div class="info-back">
+									
+								  </div>
+								</div>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 fea_grid1 fea_bor w3-agileits">
+				<div class="col-sm-4 fea_left text-center">
+					<div class="ih-item circle effect1">
+						<a href="#">
+							<div class="spinner"></div>
+							<div class="img"><img src="images/icon3.svg" alt="img"></div>
+								<div class="info">
+								  <div class="info-back">
+									
+								  </div>
+								</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-8 fea_right agileits-w3layouts">
+					<h4>Nanopartículas semiconductoras</h4>
+					<p ALIGN="justify">serán usadas en la siguiente generación de productos, tales como tecnología de pantallas, iluminación, celdas solares e imágenes biológicas</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 fea_grid2 fea_bor w3">
+				<div class="col-sm-8 fea_right fea_one w3l">
+					<h4>Electrónica de escala molecular</h4>
+					<p ALIGN="justify">busca desarrollar moléculas con propiedades electrónicas útiles. Estas podrían entonces ser usadas como componentes de molécula única en un dispositivo nanoelectrónico</p>
+				</div>
+				<div class="col-sm-4 fea_left fea_two text-center w3-agileits">
+					<div class="ih-item circle effect1">
+						<a href="#">
+							<div class="spinner"></div>
+							<div class="img"><img src="images/icon4.svg" alt="img"></div>
+								<div class="info">
+								  <div class="info-back">
+									
+								  </div>
+								</div>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+
+	<div id="universidad">
+			<h2> Nuestra Universidad</h2>
+         	<iframe width="850" height="700" src="http://www.ucuauhtemoc.edu.mx/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>			
+	</div><!--Example U.S Study -->
+
+
+ <div class="contact_w3agile">
+	<div class="container">
+		<h2 class="title w3">MAESTRÍA EN BIG DATA</h2>
+		<h3 class="title w3">Universidad Cuauhtemoc </h3>
+				<div class="strip"></div>
+		<p class="agileinfo"> 2020 Nanotecnología. All rights reserved | Design by Jorge Luis Quintero López
+</p>  </p>
+	</div>
+</div> 
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+</body>
+</html>
